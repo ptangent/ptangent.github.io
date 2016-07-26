@@ -1,12 +1,311 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="/pictures/favicon.ico" rel="icon" type="image/x-icon">
-</head>
-<title>
-Alex Personal Homepage
-</title>
-<body>
-<h1>这是我使用github pages搭建的个人站点。</h1>
-</body>
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./res/img/logo.ico" rel="icon" type="image/x-icon" />
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="./res/css/bootstrap.min.css" />
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="./res/css/bootstrap-theme.min.css" />
+    <!--<link rel="stylesheet" type="text/css" href="./res/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/animate.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="./res/css/template.css">
+    <link rel="stylesheet" href="./res/css/animations-ie-fix.css">
+    <link rel="stylesheet" href="./res/css/animations.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/custom.css">
+    <title>Tangent Personal Homepage</title>
+    <!-- <style id="pipz-styles" type="text/css">
+    #tangent{
+    background:url("./res/img/tangent.png");
+    }
+    </style>
+    -->
+  </head>
+   <script type="text/javascript">$(document).ready(function() {
+        $("#moreless").click(function() {
+          $(this).html($(this).html() == "Oh.  Free." ? "Free?": "Oh.  Free.");
+        });
+
+        $('#moreless').html('Free?');
+        $('#viewdetails').html($('#freedetails').html());
+      });</script>
+  <body>
+   
+   <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="padding: 0px;" href="/">
+            <img src="./res/img/text.png" style="height: auto; width: 180px;"></a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right" id="navbar-collapsible">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active">
+              <a href="#home">Home</a></li>
+            <li class="">
+              <a href="#login">Profile
+                <!--<i>Are</i> They?--></a></li>
+            <!-- <li><a href="#gettingstarted">Where Do I Start?</a></li>-->
+            <li>
+              <a href="#whatarethey">Contact</a></li>
+            <li>
+              <a href="#ineedhelp">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid full" id="home">
+      <div class="intro-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="intro-message">
+                <img src="./res/img/tangent.png" class="img-responsive center-block">
+                <h1>Premium Loyalty Program.</br>
+                  <em>The Responsible Developer.</em></h1>
+                <h3>For your web &amp; mobile apps.</h3>
+                <hr class="intro-divider">
+                <small id="viewdetails" class="collapse">
+                  <p>*By
+                    <em>"
+                      <strong>Free</strong>"</em>we mean that the software is free for you to use. Also; we do our best to make it easy for you to run your program and print your own cards. Our software takes your logo/card art and generates a bundle of print files and instructions; ready for you to either
+                    <a href="http://www.amazon.com/Avery-Business-Printers-5376-Uncoated/dp/B00004Z5TU">print yourself on your own printer</a>or get them printed for you at a service of your choice. You will also have to have a device or devices that you can use to "punch" cards or redeem rewards. You will probably want to use a phone or tablet; but you can use a desktop or laptop computer if it has webcam (or some prefer to use employee devices
+                    <a href="//en.wikipedia.org/wiki/Bring_your_own_device" target="_blank">BYOD</a>). And since you have to provide rewards that your customers can exchange their punches for; your Loyalty Program can't be "free". However our software, which makes it all work,
+                    <em>is</em>free.</p>
+                  <p>And to be really, really clear: We don't mean it's a free trial. Or that it's free for a limited number of customers or punches. We mean that it's just plain free and it always will be. Also the only ads we show to your customers are
+                    <em>your</em>ads; which you get for free too. Everything about QR Loyalty Cards is about promoting
+                    <strong>your</strong>business; not ours or your competitors. We also
+                    <a href="/privacypolicy">do not sell your data</a>.</p>
+                  <small>
+                    <p>We do also offer a
+                      <a href="/fullservice/new">Full Service Package</a>if you would
+                      <i>really</i>like someone else to print your cards and send them to you as you need them, to design your cards, display materials and Softcard ads, and provide your business with telephone support when your need expert advice and service. Our Full Service Package is completely optional and all Loyalty Program features are available to businesses who pay nothing.</p>
+                  </small>
+                </small>
+                <a href="Javascript:;" id="moreless" data-toggle="collapse" data-target="#viewdetails">About me?</a></div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container --></div>
+    </section>
+   
+	  <section class="container-fluid" id="login">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 animatedParent">
+            <h1 class="text-center v-center">Login/Register</h1>
+            <p class="text-center animated fadeIn">Whether you are just
+              <strong>getting&nbsp;started</strong>, a
+              <strong>business&nbsp;owner</strong>who needs to administrate your account, an
+              <strong>employee</strong>who would like to log in to punch cards/redeem rewards, or a
+              <strong>customer</strong>and you would like to view your punches and access special features;
+              <em>Start&nbsp;Here!</em></p>
+          </div>
+        </div>
+      
+        <!--/row-->
+        <div class="row animatedParent">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 animated fadeIn">
+            <p class="text-center">Your Privacy is Important to us; we will protect your data and keep it to ourselves and a small number of respected and trustworthy 3rd parties. Read our
+              <a href="/privacypolicy">Privacy Policy</a>and familiarize yourself with what we do to secure your data and protect your privacy.</p></div>
+        </div>
+      </div>
+    </section>
+	
+	 <section class="container-fluid full" id="gettingstarted">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1">
+            <h2 class="text-center">You know that Punch Cards bring customers back;</h2>
+            <h3 class="text-center">but traditional Punch Card systems have severe limitations. We take Punch Cards to a whole new level.</h3></div>
+        </div>
+        <h1 class="text-center v-center">How are these better?</h1>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center animatedParent">
+          <p class="animated fadeIn">... Or at least; you
+            <em>think</em>your Traditional Punch Card system works well; but you actually have very little data as to how your cards are being used.
+            <br style="margin-top: 5px;">How many people are participating? How many outstanding punches are there? Which of your employees encourage the most customers to participate? How&nbsp;much does your Loyalty Program cost you and what's your ROI?</p>
+          <p class="animated fadeIn">Another issue with the traditional punch card is that it is limited to encouraging a very specific behaviour: the
+            <em>buy 10 get 1 free</em>behaviour. Which is unfortunate because there are several other behaviours that businesses would also like to encourage in their customers.</p>
+          <p class="animated fadeIn">QR&nbsp;Loyalty&nbsp;Cards solves these issues by using 2D bar codes (
+            <a href="https://en.wikipedia.org/wiki/QR_code">QR&nbsp;Codes</a>) to connect cards (and customers) to a live database. This connection allows the QR&nbsp;Loyalty&nbsp;Cards application to collect far more data about how each card is used. Data that can be used to provide access to detailed analytics and reports that can help you to understand exactly how effective your program is and what you can do to improve it. Data that can also be used to reward customers for exhibiting behaviours that increase spending and grow your customer base. For example: your business can reward customers who
+            <strong>visit every day of the week</strong>, who
+            <strong>share one of your specials</strong>or events on Facebook, who
+            <strong>bring a friend</strong>, or
+            <strong>return after a long absence</strong>.</p>
+          <p class="animated fadeIn">Employees punch cards in much the same way that they always have, except instead of using a hole puncher or dabber, they use a mobile device. The Interface is extremely simple and almost entirely automatic.</p>
+          <p class="animated fadeIn">QR&nbsp;Loyalty&nbsp;Cards have many features; including a Soft Card option where customers can turn their mobile devices into their punch card, a Coalition Loyalty Program where business can create joint Loyalty Programs (e.g. Dinner and a Movie) or offer rewards for businesses that don't have rewards that they can provide themselves, and timely ads pushed out to your customer's softcards as well as your company's Facebook feed.</p>
+          <p class="animated fadeIn">The software is free; and has a built in card designer that your business can use to upload card designs and download ZIP files containing a bundle of custom print files and printing instructions. QR&nbsp;Loyalty&nbsp;Cards also offers a
+            <a href="/fullservice/new">Full Service package</a>where your business can have the cards designed and printed for you; as you enjoy expert loyalty program support and advice.</p></div>
+       
+  <div class="row animatedParent" style="padding-top: 30px; padding-bottom: 30px;">
+          <div class="col-sm-5 col-sm-offset-1 text-center animated fadeInLeft">
+            <h2>Businesses
+              <i>and</i>&nbsp;Messages</h2>
+            <p>Enter your email or message and I'll reply as soon as possible.</p>
+          </div>
+          <div class="col-sm-5 text-center animated fadeInRight">
+            <form method="POST" action="/">
+              <label class="control-label" for="email">Email Address or Message</label>
+              <div class="controls">
+                <input id="email" name="email" placeholder="" class="input-xlarge form-control col-xs-10" required="" type="email"></div>
+              <div style="padding-top: 30px;">
+                <br></div>
+              <div class="controls">
+                <button id="register" name="register" class="btn btn-primary form-control">Submit</button></div>
+            </form>
+          </div>
+        </div>
+
+	   <div class="col-xs-12 column">
+          <p>
+          </p>
+        </div>
+      </div>
+    </section>
+	  
+	  
+    <section class="container-fluid full animatedParent" id="whatarethey">
+      <h1 class="text-center v-center">Contact</h1>
+      <div class="container animated fadeInRight">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h3>QR&nbsp;Loyalty&nbsp;Cards are a modern take on the traditional "Punch Card" system</h3>
+            <p>Our QR code allows your business to connect your Loyalty Card program to a centralized database; which in turn enables you to access features unavailable using traditional punch cards; without having to use special and expensive cards and readers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row animatedParent">
+          <div class="col-sm-4 animated fadeInUp">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-2 text-center">
+                <h3>Email</h3>
+                <p>
+                  <i>Gmail:</i></p>
+                <p>ptangentalex(AT)gmail.com</p>
+				<p>
+                  <i>Other:</i></p>
+                <p>20103200041(AT)m.scnu.edu.cn</p>
+                <i class="fa fa-line-chart fa-5x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center animated fadeInUp">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h3>Github</h3>
+                <p><a href="https://github.com/ptangent">Ptangent</a>
+				
+				</p>
+                
+                <i class="fa fa-magic fa-5x"></i>
+              </div>
+            </div>
+          </div>
+		   <div class="col-sm-4 text-center animated fadeInUp">
+            <div class="row">
+              <div class="col-sm-10 text-center">
+                <h3>LinkedIn</h3>
+                <p>Customers can be rewarded for doing things that traditional Punch Card systems can't reward people for.</p>
+                <i class="fa fa-heart-o fa-5x"></i>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <!--/row--></div>
+      <!--/container-->
+     
+    </section>
+    
+   
+    <section class="container-fluid full animatedParent" id="ineedhelp">
+      <div class="container">
+        <div class="row">
+          <h1 class="col-xs-12"     style="text-align: center;">
+		  
+		  <!--col-xs-12 col-ms-offset-1 col-ms-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6-->
+            <img src="./res/img/logo.png" class="" ></h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-1 column text-center animated swing">
+            <h2>Blog</h2>
+            <i class="fa fa-star fa-4x"></i>
+          </div>
+          <div class="col-sm-7 column">
+            <p>I&nbsp;Also&nbsp;Write some blogs
+              <a href="/fullservice/new">&nbsp;About IT and Life</a>; if you don't have the time, ability or desire to design your own cards and ads, and you want expert help with running your program.</p>
+            <p>As part of your service package we will print and ship you your customly designed cards, as you need them. And our professional and creative designers will not only help you design cards you'll love, but they'll help you get the most out of your Loyalty Program, and engage your customers in all new ways.</p>
+            <p>The Full Service Package is (and will always be) completely optional and all Loyalty Program features are available to businesses who pay nothing.</p>
+            <p>
+              <a href="/fullservice/new">Click Here to Find Out More</a></p>
+          </div>
+        </div>
+        <!--/row--></div>
+      <!--/container--></section>
+    
+    <div style="display: none;" id="freedetails">
+      <p>*By
+        <em>"
+          <strong>Free</strong>"</em>we mean that the software is free for you to use. Also; we do our best to make it easy for you to run your program and print your own cards. Our software takes your logo/card art and generates a bundle of print files and instructions; ready for you to either
+        <a href="http://www.amazon.com/Avery-Business-Printers-5376-Uncoated/dp/B00004Z5TU">print yourself on your own printer</a>or get them printed for you at a service of your choice. You will also have to have a device or devices that you can use to "punch" cards or redeem rewards. You will probably want to use a phone or tablet; but you can use a desktop or laptop computer if it has webcam (or some prefer to use employee devices
+        <a href="//en.wikipedia.org/wiki/Bring_your_own_device" target="_blank">BYOD</a>). And since you have to provide rewards that your customers can exchange their punches for; your Loyalty Program can't be "free". However our software, which makes it all work,
+        <em>is</em>free.</p>
+      <p>And to be really, really clear: We don't mean it's a free trial. Or that it's free for a limited number of customers or punches. We mean that it's just plain free and it always will be. Also the only ads we show to your customers are
+        <em>your</em>ads; which you get for free too. Everything about QR Loyalty Cards is about promoting
+        <strong>your</strong>business; not ours or your competitors. We also
+        <a href="/privacypolicy">do not sell your data</a>.</p>
+      <small>
+        <p>We do also offer a
+          <a href="/fullservice/new">Full Service Package</a>if you would
+          <i>really</i>like someone else to print your cards and send them to you as you need them, to design your cards, display materials and Softcard ads, and provide your business with telephone support when your need expert advice and service. Our Full Service Package is completely optional and all Loyalty Program features are available to businesses who pay nothing.</p>
+      </small>
+    </div>
+    <footer>
+      <div class="row">
+	  <!--col-sm-3-->
+        <div class="col-xs-12  column text-center">
+	
+          <ul class="nav">
+            <li>Copyright © 2016.Tangent All Rights Reserved.</li></ul>
+        </div>
+        <!--
+		<div class="col-xs-4 col-sm-3 column text-center">
+          <ul class="nav">
+            <li>
+              <a href="/privacypolicy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-3 column text-center">
+          <ul class="nav">
+            <li>
+              <a href="/siteterms">Site Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-3 column text-center">
+          <ul class="nav">
+            <li>
+              <a href="/termsofservice">Full Service Terms</a></li>
+          </ul>
+        </div>
+		-->
+		
+      </div>
+    </footer>
+  </body>
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="./res/js/jquery-3.0.0.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="./res/js/bootstrap.min.js"></script>
+  <script src="./res/js/css3-animate-it.js"></script>
+  <script src="./res/js/template.js"></script>
+
 </html>
